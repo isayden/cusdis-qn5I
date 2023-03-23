@@ -1,6 +1,6 @@
 FROM node:16-alpine3.15 as builder
 
-VOLUME [ "/data" ]
+#VOLUME [ "/data" ]
 
 ARG DB_TYPE=sqlite
 ENV DB_TYPE=$DB_TYPE
